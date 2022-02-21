@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="autochanges"/>
+    <LandingHome msg="autochanges"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeLanding from './views/LandingHome.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LandingHome
   }
 }
 </script>
